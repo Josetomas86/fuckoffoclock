@@ -1,15 +1,14 @@
 <?php
 // TODO: Account for weekends, yo.
+// TODO: Account for breaks?
 
 // Set our default timezone to avoid hearing about how we didn't set one.
 date_default_timezone_set('America/Los_Angeles');
 
 // Get the current time in San Francisco.
 $currtime = date('G:i');
-
 // What time do we fuck on?
-$fuckon = "09:30";
-
+$fuckon = "08:30";
 // What time do we fuck off?
 $fuckoff = "17:30";
 
